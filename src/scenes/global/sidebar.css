@@ -1,0 +1,89 @@
+/* sidebar.css */
+
+/* Main sidebar container */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: #283593;
+    color: #ffffff;
+    padding-top: 20px;
+    overflow-y: auto;
+    transition: width 0.3s ease;
+  }
+  
+  /* Collapsed state */
+  .sidebar.collapsed {
+    width: 60px;
+  }
+  
+  /* Menu item container */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Active menu item */
+  .menu-item.active {
+    background-color: #3f51b5;
+  }
+  
+  /* Menu icon */
+  .menu-icon {
+    font-size: 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Collapse icon */
+  .collapse-icon {
+    font-size: 20px;
+  }
+  
+  /* User profile container */
+  .user-profile {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile details */
+  .profile-details {
+    text-align: center;
+  }
+  
+  /* Menu section title */
+  .section-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    padding: 10px;
+  }
+  
+  /* Menu section container */
+  .menu-section {
+    margin-top: 20px;
+  }
+  
+  /* Icon styles */
+  .home-icon { /* Example */
+    background-image: url('path_to_home_icon.png');
+    /* Add additional styles as needed */
+  }
+  /* Define styles for other icons similarly */
+  
